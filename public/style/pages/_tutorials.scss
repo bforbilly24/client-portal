@@ -1,0 +1,88 @@
+.bg-main-tutorial {
+  background: #f5f6fb;
+}
+
+// Video
+.bg-tutorials {
+  background: #0068ff;
+  padding: 10px 32px;
+
+  .title-tutorial {
+    font-size: 28px;
+  }
+
+  @media (max-width: 576px) {
+    .title-tutorial {
+      font-size: 24px;
+    }
+  }
+}
+
+.video {
+  background: #f5f6fb;
+
+  .bg-tutorial {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px 30px 10px 30px;
+  }
+
+  iframe {
+    width: 920px;
+    height: 430px;
+    border-radius: 10px;
+  }
+
+  .font-title {
+    font-size: 24px;
+  }
+
+  .font-author {
+    font-size: 18px;
+  }
+
+  @media (max-width: 992px) {
+    .bg-tutorial {
+      padding: 15px 30px 5px 30px;
+    }
+
+    iframe {
+      width: 660px;
+      height: 315px;
+      border-radius: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    iframe {
+      width: 560px;
+      height: 315px;
+      border-radius: 10px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    
+    padding-top: 10px;
+
+    .bg-tutorial {
+      padding: 10px 15px 10px 15px;
+    }
+
+    iframe {
+      width: 320px;
+      height: 176px;
+      border-radius: 10px;
+    }
+
+    .font-title {
+      font-size: 14px;
+      margin: 0px;
+    }
+
+    .font-author {
+      font-size: 12px;
+      margin: 0px;
+    }
+  }
+}
